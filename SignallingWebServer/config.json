@@ -15,5 +15,6 @@
   "StreamerPort": 8888,
   "SFUPort": 8889,
   "MaxPlayerCount": -1,
-  "DisableSSLCert": false
+  "DisableSSLCert": true,
+  "peerConnectionOptions": "{ \"iceServers\": [{\"urls\": [\"stun:stun.l.google.com:19302\"]}] }"
 }
